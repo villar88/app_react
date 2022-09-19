@@ -1,0 +1,16 @@
+/**
+* Se pueden importar scripts sass para que todos los estilos no queden en un solo
+* Archivo y sea complicado hacer alguna modificación.
+* Para crear los demas scripts para luego ser importados se recomienda que comiencen por _
+*/
+
+@import './base/settings';
+@import './base/base';
+
+// Components
+/**
+* Entre los componentes pueden existir algunos tales como buttons, cards ..., etc, no necesariamnete deben ser de componentes
+* de la aplicación.
+*/
+@import './components/auth';
+@import './components/buttons';

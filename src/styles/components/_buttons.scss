@@ -1,0 +1,13 @@
+.btn__primary {
+    background-color: $primary;
+    border-radius: 2px;
+    /**
+    * Forma de hacer que tenga otros estilos por ejemplo para cuando el
+    * boton esta con el atributo disabled.
+    *
+    * Tambien se pueden anidar selectores, clases y id's
+    */
+    &:disabled {
+        background-color: lighten($color: $primary, $amount: 1);
+    }
+}
